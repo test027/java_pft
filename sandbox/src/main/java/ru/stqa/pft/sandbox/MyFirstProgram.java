@@ -21,7 +21,8 @@ public class MyFirstProgram {
     Triangle w = new Triangle(3, 4); //создаем треугольник
     System.out.println("Площадь треугольника со стороной " + w.bt + " и высотой " + w.at + " = " + w.area());
 
-  }
+    }
+
 
   public static void hello(String somebody) {
     System.out.println("Hello, " + somebody + "!");
