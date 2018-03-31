@@ -1,13 +1,15 @@
 package ru.stqa.pft.addresbook.appmanager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import ru.stqa.pft.addresbook.model.ContactData;
 
 public class ContactHelper extends HelperBase{
-  private FirefoxDriver wd;
+  private WebDriver wd;
 
-  public ContactHelper(FirefoxDriver wd) {
+  public ContactHelper(WebDriver wd) {
     super(wd);
   }
 

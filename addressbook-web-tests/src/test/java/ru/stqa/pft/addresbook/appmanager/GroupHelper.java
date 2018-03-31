@@ -1,12 +1,14 @@
 package ru.stqa.pft.addresbook.appmanager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import ru.stqa.pft.addresbook.model.GroupData;
 
 public class GroupHelper extends HelperBase {
 
-  public GroupHelper(FirefoxDriver wd) {
+  public GroupHelper(WebDriver wd) {
     super(wd); //обращение к методу контруктора базового класса
   }
 
