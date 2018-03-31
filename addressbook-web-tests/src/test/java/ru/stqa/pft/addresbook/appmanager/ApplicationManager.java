@@ -26,7 +26,6 @@ public class ApplicationManager {
     } else if (browser.equals(org.openqa.selenium.remote.BrowserType.CHROME)) {
       wd = new ChromeDriver();
     }
-    wd = new ChromeDriver(); //инициализируется аттрибут обьекта
     wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
     wd.get("http://localhost/addressbook/index.php");
     groupHelper = new GroupHelper(wd);
