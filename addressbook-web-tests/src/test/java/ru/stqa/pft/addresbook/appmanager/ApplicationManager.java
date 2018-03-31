@@ -3,12 +3,7 @@ package ru.stqa.pft.addresbook.appmanager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.safari.SafariDriver;
-import sun.plugin2.util.BrowserType;
-
 import java.util.concurrent.TimeUnit;
-
 
 
 public class ApplicationManager {
