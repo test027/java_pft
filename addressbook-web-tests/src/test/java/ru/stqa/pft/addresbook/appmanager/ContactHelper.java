@@ -22,10 +22,10 @@ public class ContactHelper extends HelperBase{
   }
 
   public void fillContactForm(ContactData contactData) {
-    type("firstname", contactData.getFirstname());
-    type("lastname", contactData.getLastname());
-    type("home", contactData.getPhone());
-    type("email", contactData.getEmail());
+    type(By.name("firstname"), contactData.getFirstname());
+    type(By.name("lastname"), contactData.getLastname());
+    type(By.name("home"), contactData.getPhone());
+    type(By.name("email"), contactData.getEmail());
   }
 
   public void initContactCreation() {
